@@ -66,6 +66,21 @@
     background: url(../img/iphone6.png);
     background-size: 250px 500px;
 }
+.fc-hero-slider-inner {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 362px;
+    margin: 64px auto;
+}
+.fc-hero-slide {
+    height: 100%;
+}
     /**
      * HERO VIDEO
      * ----------------------------------------------- */
