@@ -74,7 +74,7 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    width: 194px;
+    width: 196px;
     height: 362px;
     margin: 64px auto;
     overflow: hidden;
@@ -90,19 +90,19 @@
     left: 0;
 }
 .fc-hero-slide img {
-    width: 194px;
+    width: 196px;
     height: 362px;
 }
 #carousel ul {
         position: absolute;
-        width: 776px;
+        width: 784px;
         padding: 0;
         margin: 0;
         overflow: hidden;
     }
 
     #carousel ul li {
-        width: 194px;
+        width: 196px;
         height: 362px;
         text-align: center;
         list-style: none;
