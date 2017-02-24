@@ -1,0 +1,14 @@
+<div>
+	<div ng-show="!form.$valid && !form.$pristine && form.$submitted" class="error-message">
+		<h6 class="message-header"><strong>The form is fucking invalid!</strong></h6>
+		<ul>
+			<li ng-show="!form.email.$valid">
+				Your email stinks like rotten cabin milk.
+			</li>
+		</ul>
+	</div>
+	<div ng-show="successMsg" class="success-message">
+		<h6 class="message-header"><strong>How neat is that!</strong></h6>
+		<strong>Congratulations, this form is valid. Thank you for registering with Fishing Clash alpha release. We appreciate it. Like us on facebook.</strong>
+	</div>
+</div>

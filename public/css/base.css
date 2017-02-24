@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* ============================================================================
+  1.  BASE LAYER | smacss
+============================================================================ */
+/* ----------------------------------------------------------------------------
+  # RESET | base layer
+---------------------------------------------------------------------------- */
+*, body, html {
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-kerning: auto;
+    font-variant: normal;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-variant-alternates:  swash(flowing);
+    font-variant-alternates:  swash(flowing);
+    -webkit-font-feature-settings: "kern", "liga";
+    -moz-font-feature-settings: "kern", "liga";
+    -ms-font-feature-settings: "kern", "liga";
+    -o-font-feature-settings: "kern", "liga";
+    text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -webkit-text-rendering: optimizeLegibility;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/*
+ * Make html take up the entire screen
+ * Then set touch-action to avoid touch delay on mobile IE
+ */
+html {
+    width: 100%;
+    font-size: 62.5%;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+/*
+* Make body take up the entire screen
+* Remove body margin so layout containers don't cause extra overflow.
+*/
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family:  "Overpass", "Helvetica Neue", "Lucida Grande", "Arial";
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-variant: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: .025em;
+    color: #212026;
+    background-color: #F0F0F0;
+}
+body:before,
+body:after {
+    content: " ";
+    display: table;
+}
+body:after {
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, span, a, button, label, input, select, textarea {
+    font-family:  "Overpass", "Helvetica Neue", "Lucida Grande", "Arial";
+}
+
+/**
+ * IMAGES
+ * ----------------------------------------------- */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/**
+ * LISTS
+ * ----------------------------------------------- */
+ul,
+ol {
+    list-style: none;
+    list-style-type: none;
+}

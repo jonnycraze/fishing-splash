@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* ============================================================================
+  3.  COMPONENTS LAYER | smacss
+============================================================================ */
+/**
+ * BUTTON STUFFFFF
+ * ----------------------------------------------- */
+/* general button styles */
+a[class*="btn-"],
+button[class*="btn-"] {
+    font-weight: 600;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.btn-gray { background-color: #939598; }
+.btn-lite-blue { background-color: #6481A1; }
+.btn-dark-blue { background-color: #2C4062; }
+.btn-purple { background-color: #46253B; }
+.btn-lime { background-color: #B7D43C; }
+/* green button*/
+.btn-green { 
+    color: #f0f0f0;
+    background-color: #8DC63F; 
+}
+.btn-green:hover,
+.mdl-button--raised.btn-green:focus:not(:active) {
+    background-color: #a0e047;
+}
+.btn-green:active {
+    background-color: #73a034;
+}

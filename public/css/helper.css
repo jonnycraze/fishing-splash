@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* ============================================================================
+  4.  HELPERS LAYER | smacss
+============================================================================ */
+/**
+ * TEXT COLORS
+ * ----------------------------------------------- */
+.txt-dark { color: #212026; }
+.txt-gray { color: #939598; }
+.txt-lite-blue { color: #6481A1; }
+.txt-dark-blue { color: #2C4062; }
+.txt-purple { color: #46253B; }
+.txt-lime { color: #B7D43C; }
+.txt-green { color: #8DC63F; }
+/**
+ * BACKGROUND COLORS
+ * ----------------------------------------------- */
+.bg-dark { background-color: #212026 !important; }
+.bg-gray { background-color: #939598 !important; }
+.bg-lite-blue { background-color: #6481A1 !important; }
+.bg-dark-blue { background-color: #2C4062 !important; }
+.bg-purple { background-color: #46253B !important; }
+.bg-lime { background-color: #B7D43C !important; }
+.bg-green { background-color: #8DC63F !important; }
+
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+}
