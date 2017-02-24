@@ -1,8 +1,12 @@
 <article class="col--sm6 fc-hero-slider">
 	<!-- <img class="fc-hero-logo" src="img/fc-logo.png" alt="Fishing Clash Logo"> -->
 	<div class="fc-hero-slider-wrapper animated fadeInDownBig">
-		<div class="fc-hero-slider-inner">
-			<div class="fc-hero-slide">This is going to be a slider with images</div>
+		<div class="fc-hero-slider-inner" id="carousel">
+			<ul class="fc-hero-slide">
+				<li ng-repeat="slide in vm.slides">
+					<img ng-src="{{ slide.image }}" alt="{{ slide.desc }}">
+				</li>
+			</div>
 		</div>
 	</div>
 </article>

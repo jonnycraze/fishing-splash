@@ -7,6 +7,16 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
     vm.appDescription = "This is the description for the Fishing Clash website";
     vm.appKeywords = "Fishing, Tournament, Lake, Boat";
     vm.appAuthor = "Jon Ryan && Jon Best";
+    // ------------------------------------------------------------------------------------------------------------
+    // Slider
+    // ------------------------------------------------------------------------------------------------------------
+    vm.slides = [
+        {image: "img/slide1.png", desc: "Slide one image desc"},
+        {image: "img/slide2.png", desc: "Slide two image desc"},
+        {image: "img/slide3.png", desc: "Slide three image desc"},
+        {image: "img/slide4.png", desc: "Slide four image desc"}
+
+    ];
 	// ------------------------------------------------------------------------------------------------------------
     // List of lakes
     // ------------------------------------------------------------------------------------------------------------
@@ -57,3 +67,13 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
 //     vidElem.playbackRate = 0.5; 
     
 // })();
+
+$(document).ready(function(){
+    // Set the interval to be 5 seconds
+    var t = setInterval(function(){
+        $("#carousel ul").animate({marginLeft:-194},1000,function(){
+            $(this).find("li:last").after($(this).find("li:first"));
+            $(this).css({marginLeft:0});
+        })
+    },5000);
+});
