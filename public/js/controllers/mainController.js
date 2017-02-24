@@ -75,5 +75,5 @@ $(document).ready(function(){
             $(this).find("li:last").after($(this).find("li:first"));
             $(this).css({marginLeft:0});
         })
-    },5000);
+    },8000);
 });
