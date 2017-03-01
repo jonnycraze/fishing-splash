@@ -159,15 +159,28 @@
     padding: 0;
     border-radius: 4px;
 }
+.fc-lakes .mdl-list__item:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.25);
+    z-index: 3;
+}
 .fc-lakes .mdl-list__item:nth-child(even) {
     margin-left: 2%;
 }
 .fc-lakes .mdl-list__item-primary-content {
-    z-index: 3;
+    z-index: 4;
     display: block;
     font-size: 1.25em;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 .fc-lakes .mdl-list__item img {
     position: absolute;
