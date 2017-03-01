@@ -152,7 +152,31 @@
 }
 
 .fc-lakes .mdl-list__item {
-    flex: 0 0 50%;
+    position: relative;
+    flex: 0 0 48%;
+    height: 150px;
+    margin: 1% 0;
+    padding: 0;
+    border-radius: 4px;
+}
+.fc-lakes .mdl-list__item:nth-child(even) {
+    margin-left: 2%;
+}
+.fc-lakes .mdl-list__item-primary-content {
+    z-index: 3;
+    display: block;
+    font-size: 1.25em;
+    color: #fff;
+    text-align: center;
+}
+.fc-lakes .mdl-list__item img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 form .mdl-textfield {

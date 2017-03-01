@@ -3,6 +3,7 @@
 	<ul class="mdl-list">
   		<li class="mdl-list__item" ng-repeat="lake in vm.lakes">
     		<span class="mdl-list__item-primary-content">{{lake.lakename}}</span>
+    		<img src="{{ lake.image }}" alt="{{ lake.desc }}">
   		</li>
 	</ul>
 </article>

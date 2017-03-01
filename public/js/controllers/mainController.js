@@ -1,4 +1,5 @@
-myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterService', function ($scope, $route, $timeout, RegisterService) {
+myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterService', 
+    function ($scope, $route, $timeout, RegisterService) {
 	var vm = this;
 	// ------------------------------------------------------------------------------------------------------------
 	// Scope General App Content
@@ -8,7 +9,7 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
     vm.appKeywords = "Fishing, Tournament, Lake, Boat";
     vm.appAuthor = "Jon Ryan && Jon Best";
     // ------------------------------------------------------------------------------------------------------------
-    // Slider
+    // Hero Slider
     // ------------------------------------------------------------------------------------------------------------
     vm.slides = [
         {image: "img/slide1.png", desc: "Slide one image desc"},
@@ -21,18 +22,18 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
     // List of lakes
     // ------------------------------------------------------------------------------------------------------------
     vm.lakes = [
-    	{ lakename: "mille lacs" },
-    	{ lakename: "vermilion" },
-    	{ lakename: "leech" },
-    	{ lakename: "minnetonka" },
-    	{ lakename: "independence" },
-    	{ lakename: "forest" },
-    	{ lakename: "bald" },
-    	{ lakename: "eagle" },
-    	{ lakename: "waconia" },
-    	{ lakename: "calhoun" },
-    	{ lakename: "sugar" },
-    	{ lakename: "white bear" }
+    	{ lakename: "mille lacs", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "vermilion", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "leech", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "minnetonka", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "independence", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "forest", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "bald", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "eagle", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "waconia", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "calhoun", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "sugar", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "white bear", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" }
     ];
 
     // ------------------------------------------------------------------------------------------------------------
