@@ -26,13 +26,13 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
     	{ lakename: "vermilion", image: "img/lakes/vermilion.jpg", desc: "Vermilion Lake" },
     	{ lakename: "leech", image: "img/lakes/leech.jpg", desc: "Leech Lake" },
     	{ lakename: "minnetonka", image: "img/lakes/tonka.jpg", desc: "Lake Minnetonka" },
-    	{ lakename: "independence", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
-    	{ lakename: "forest", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "independence", image: "img/lakes/indie.jpg", desc: "Lake Indie" },
+    	{ lakename: "forest", image: "img/lakes/forrest.jpg", desc: "Forest Lake" },
     	{ lakename: "bald eagle", image: "img/lakes/bald-eagle.jpg", desc: "Bald Eagle Lake" },
-    	{ lakename: "eagle", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "bemidji", image: "img/lakes/bemidji.jpg", desc: "Bemidji Lake" },
     	{ lakename: "waconia", image: "img/lakes/waconia.jpg", desc: "Lake Waconia" },
     	{ lakename: "calhoun", image: "img/lakes/calhoun.jpg", desc: "Lake Calhoun" },
-    	{ lakename: "sugar", image: "img/lakes/mille-lacs.jpg", desc: "Mille Lacs Lake" },
+    	{ lakename: "sugar", image: "img/lakes/sugar.png", desc: "Sugar Lake" },
     	{ lakename: "white bear", image: "img/lakes/white-bear-lake.jpg", desc: "White Bear Lake" }
     ];
 
