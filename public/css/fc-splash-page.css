@@ -146,6 +146,10 @@
 /* ============================================================================
   2.  FEATURED LAKES SECTION
 ============================================================================ */
+
+.fc-lakes .fc-hero-cta {
+    padding: 10em 2em;
+}
 .fc-lakes .mdl-list {
     display: flex;
     flex-flow: row wrap;
@@ -176,7 +180,7 @@
 .fc-lakes .mdl-list__item-primary-content {
     z-index: 4;
     display: block;
-    font-size: 1.25em;
+    font-size: 1.625em;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
