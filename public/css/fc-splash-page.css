@@ -156,6 +156,8 @@
 }
 
 .fc-lakes .mdl-list__item {
+    display: flex;
+    align-items: flex-end;
     position: relative;
     flex: 0 0 48%;
     height: 150px;
@@ -180,7 +182,10 @@
 .fc-lakes .mdl-list__item-primary-content {
     z-index: 4;
     display: block;
+    height: 52px;
+    background: rgba(0,0,0, .5);
     font-size: 1.625em;
+    line-height: 60px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -194,6 +199,14 @@
     top: 0;
     left: 0;
     z-index: 2;
+    -webkit-transition: all 1.5s linear;
+    transition: all 1.5s linear;
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
+.fc-lakes .mdl-list__item:hover img {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
 }
 
 form .mdl-textfield {

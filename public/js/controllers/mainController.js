@@ -1,6 +1,12 @@
 myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterService', 
     function ($scope, $route, $timeout, RegisterService) {
 	var vm = this;
+
+    $timeout(function() {
+        if(!(typeof(componentHandler) == 'undefined')){
+            componentHandler.upgradeAllRegistered();
+        }
+    }, 500);
 	// ------------------------------------------------------------------------------------------------------------
 	// Scope General App Content
 	// ------------------------------------------------------------------------------------------------------------
