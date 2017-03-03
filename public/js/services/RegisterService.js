@@ -3,9 +3,9 @@ myApp.service('RegisterService', ['$q','$http', function($q,$http) {
 		register: function (data) {
 			var defer = $q.defer();
 
-			$http.post('http://fishingclashapi-91763.onmodulus.net/api/alpha-register', data).success(function(data) {
+			$http.post('http://fishingclashapi-91763.onmodulus.net/api/alpha-register', data).then(function(data) {
 				defer.resolve(data);
-			}).error(function(err) {
+			}).then(function(err) {
 				defer.reject("That email has already been registered!");
 			});
 
