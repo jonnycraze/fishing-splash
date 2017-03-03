@@ -7,7 +7,8 @@
 
 .fc-hero,
 .fc-lakes,
-.fc-about {
+.fc-about,
+.fc-footer {
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -208,6 +209,19 @@
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
+/* ============================================================================
+  1.  FOOTER SECTION
+============================================================================ */
+.fc-footer .fc-hero-cta {
+    display: flex;
+    align-items: center;
+    padding: 2em 10em;
+    border-top: 2px solid rgba(0,0,0,.12);;
+}
+
+
+
+
 
 form .mdl-textfield {
     width: calc(100% - 2em);
