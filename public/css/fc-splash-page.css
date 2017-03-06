@@ -288,7 +288,9 @@ form .mdl-textfield {
 }
 
 @media all and (max-width: 991px) {
-    .fc-hero-slider {
+    .fc-hero-slider,
+    .hero-vid,
+    .hero-vid-overlay {
         display: none;
     }
 
