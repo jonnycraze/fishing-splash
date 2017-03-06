@@ -275,5 +275,26 @@ form .mdl-textfield {
     border-bottom: 1px solid #D41D23;
 }
 
+@media all and (max-width: 678px) {
+    .fc-hero-cta {
+        padding: 1.5em 2.5em;
+    }
+}
 
+@media all and (max-width: 991px) {
+    .fc-hero-slider {
+        display: none;
+    }
+
+    .fc-hero-form {
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .fc-hero-cta {
+        margin: 0;
+        padding: 3em 5em;
+    }
+}
 
