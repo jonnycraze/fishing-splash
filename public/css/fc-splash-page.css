@@ -279,6 +279,12 @@ form .mdl-textfield {
     .fc-hero-cta {
         padding: 1.5em 2.5em;
     }
+    .fc-lakes .mdl-list__item {
+        flex: 0 0 100%;
+    }
+    .fc-lakes .mdl-list__item:nth-child(even) {
+        margin-left: 0;
+    }
 }
 
 @media all and (max-width: 991px) {
