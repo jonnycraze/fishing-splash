@@ -18,10 +18,10 @@ myApp.controller('mainController', ['$scope', '$route', '$timeout', 'RegisterSer
     // Hero Slider
     // ------------------------------------------------------------------------------------------------------------
     vm.slides = [
-        {image: "img/slide1.png", desc: "Slide one image desc"},
-        {image: "img/slide2.png", desc: "Slide two image desc"},
-        {image: "img/slide3.png", desc: "Slide three image desc"},
-        {image: "img/slide4.png", desc: "Slide four image desc"}
+        {image: "img/slides/slide1.png", desc: "Slide one image desc"},
+        {image: "img/slides/slide2.png", desc: "Slide two image desc"},
+        {image: "img/slides/slide3.png", desc: "Slide three image desc"},
+        {image: "img/slides/slide4.png", desc: "Slide four image desc"}
 
     ];
 	// ------------------------------------------------------------------------------------------------------------
